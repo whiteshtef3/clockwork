@@ -12,6 +12,12 @@ A simple and intuitive scheduling library in Go.
 
 Inspired by [python's schedule](https://github.com/dbader/schedule) and [ruby's clockwork](https://github.com/adamwiggins/clockwork) libraries.
 
+## Installation
+
+```bash
+$ go get -u github.com/whiteShtef/clockwork
+```
+
 
 ## Example use
 
@@ -45,4 +51,4 @@ func something() {
 }
 ```
 
-The package uses [go dep](https://golang.github.io/dep/) for dependency management.
+The package uses [go modules](https://blog.golang.org/using-go-modules) for dependency management.
